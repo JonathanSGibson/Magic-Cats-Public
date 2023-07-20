@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Jack/JacksTempMenu.unity
+    guid: e37687d4cfe8a2d45bd84e169716b7ff
+  - enabled: 0
+    path: Assets/Jonathan/Jonathan's Test Scene.unity
+    guid: aa5aa73b4e7902246a15f6e1ed328897
+  - enabled: 0
+    path: Assets/Mel/Level_Complete.unity
+    guid: b8883ef8d1b13f648a20121baf26d21e
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Jack/JacksTestingWorld.unity
+    guid: e7707808ea84f974e9b53453adce2b64
+  - enabled: 1
+    path: "Assets/Chlo\xE9/Level 1.unity"
+    guid: 51f8c062fb484d44b9b46443c58f6903
+  - enabled: 1
+    path: "Assets/Chlo\xE9/Level 2.unity"
+    guid: b48d7ea93cb84a34c8c4301252c85113
+  - enabled: 1
+    path: "Assets/Chlo\xE9/Level 3.unity"
+    guid: dd496888e7642f941894917e75100907
+  - enabled: 1
+    path: "Assets/Chlo\xE9/Level 4.unity"
+    guid: b7da78872f0876c48a34f85c92d27f8a
+  - enabled: 1
+    path: "Assets/Chlo\xE9/Level 5.unity"
+    guid: f70d6f1df3b47e246af5db8aa5694d82
+  - enabled: 1
+    path: "Assets/Chlo\xE9/Level 6.unity"
+    guid: ef18a870bf850ed42a62d33a2764348a
+  - enabled: 1
+    path: "Assets/Chlo\xE9/Level 7.unity"
+    guid: f449bf6096776d840a93e8ead2731980
+  - enabled: 0
+    path: "Assets/Chlo\xE9/CatTracker.unity"
+    guid: f3036ba49a2052040b5b741f52ecdda3
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 930e92291ffb33f4d99b439b2ec05e10, type: 2}

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8965568042153518674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8965568042153518636}
+  - component: {fileID: 1627464253646207367}
+  m_Layer: 0
+  m_Name: Orb Puzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8965568042153518636
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8965568042153518674}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1627464253646207367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8965568042153518674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83d44e580cdb7a46ab3cf2765ddf820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patternComplete: []
+  patternCompleteSprite: {fileID: 0}
+  patternCount: 1
+  patternLength: 5
+  glowTime: 0.5
+  correctGlowTime: 0.3
+  glowTimeGap: 0.5
+  successSceneName: Level_Complete
+  patternSuccesses: 0
+  toHide: {fileID: 8965568042153518674}
+  toShow: {fileID: 0}
+  correctSprite: {fileID: 21300000, guid: c2ba68b82004c314fbc628bddae07afe, type: 3}
+  incorrectSprite: {fileID: 21300000, guid: 0b65e91e67033f34095a8311c43eff5f, type: 3}
+  flashDuration: 1
+  startButton: {fileID: 0}
+  catController: {fileID: 0}
+  accessoryPoints: 
+  patternCmoplete: {fileID: 8300000, guid: ed3a69815e64ce14d955c85d9a10d34b, type: 3}
+  levelComplete: {fileID: 8300000, guid: b1eec6559c6d4274f87278f66b800da3, type: 3}
+  audioSource: {fileID: 0}
